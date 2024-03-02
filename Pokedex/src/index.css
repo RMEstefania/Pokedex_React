@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid rgb(226, 232, 240);
+    
+}
+
+.group:hover{
+    transform: scale(2);
+}
+
+.pixelated{
+    image-rendering: pixelated;
+}
